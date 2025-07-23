@@ -1,0 +1,29 @@
+{
+  "name": "cc-video-maker",
+  "version": "1.0.0",
+  "description": "Educational content creator with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render src/index.tsx HelloWorld out/hello-world.mp4",
+    "upgrade": "remotion upgrade",
+    "server": "ts-node server.tsx",
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NuttakitDW/cc-video-maker.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "4.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "remotion": "4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/web": "^0.0.86",
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4"
+  }
+}
