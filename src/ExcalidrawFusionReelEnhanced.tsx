@@ -85,8 +85,8 @@ export const ExcalidrawFusionReelEnhanced: React.FC = () => {
 					<Scene6Security />
 				</Series.Sequence>
 				
-				{/* Scene 7: Benefits & Future (1:15-1:27 = 360 frames) */}
-				<Series.Sequence durationInFrames={360}>
+				{/* Scene 7: Benefits & Future (1:15-1:28 = 390 frames) */}
+				<Series.Sequence durationInFrames={390}>
 					<Scene7Benefits />
 				</Series.Sequence>
 			</Series>

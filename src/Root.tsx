@@ -21,7 +21,7 @@ export const Root: React.FC = () => {
 			<Composition
 				id="FusionReel"
 				component={FusionReel}
-				durationInFrames={2310} // 77 seconds (1:17) at 30fps
+				durationInFrames={2640} // 88 seconds at 30fps
 				width={1080} // Instagram Reel width
 				height={1920} // Instagram Reel height
 				fps={30}
@@ -39,7 +39,7 @@ export const Root: React.FC = () => {
 			<Composition
 				id="ExcalidrawFusionReel"
 				component={ExcalidrawFusionReel}
-				durationInFrames={2610} // 87 seconds (1:27) at 30fps
+				durationInFrames={2640} // 88 seconds at 30fps
 				width={1080} // Instagram Reel width
 				height={1920} // Instagram Reel height
 				fps={30}
@@ -48,7 +48,7 @@ export const Root: React.FC = () => {
 			<Composition
 				id="FusionIG"
 				component={FusionIG}
-				durationInFrames={2610} // 87 seconds (1:27) at 30fps
+				durationInFrames={2640} // 88 seconds at 30fps
 				width={1080} // Instagram Reel width
 				height={1920} // Instagram Reel height
 				fps={30}
@@ -57,7 +57,7 @@ export const Root: React.FC = () => {
 			<Composition
 				id="ExcalidrawFusionReelEnhanced"
 				component={ExcalidrawFusionReelEnhanced}
-				durationInFrames={2610} // 87 seconds (1:27) at 30fps
+				durationInFrames={2640} // 88 seconds at 30fps
 				width={1080} // Instagram Reel width
 				height={1920} // Instagram Reel height
 				fps={30}
